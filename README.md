@@ -12,6 +12,9 @@ The purpose of this project is to analyze the data collected of over four thousa
 
 ### Analysis of Outcomes Based on Goals
   Moreover, we created a new sheet where with the help of the function COUNTIF() we created a table that showed us the number, percentages and totals of successful, failed and canceled campaigns; grouping them by goal amount ranges. Then with this table we created a line chart that showed us the relationship between goal amounts and percentage of succesfulness, failure and cancelation.
+  
+<img width="715" alt="Outcomes_vs_Goals" src="https://user-images.githubusercontent.com/68616522/88498462-279c8c80-cf91-11ea-9316-eba6333988fc.png">
+
 ### Challenges and Difficulties Encountered
   The challenges that we encountered were mostly on how to properly write the functions requirements. Also, i had to spend some time deciding the columns, rows and values of the pivot table. It was difficult to setup the pivot table since my computer automatically grouped and formated the date column; so my table did not look exactly as the one provided as an example in the module. Another challege was to wirite the analysis on the readme file since there was not much instructions on how to do it and how to add links and images to it.
 ## Results
