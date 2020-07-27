@@ -7,6 +7,9 @@ The purpose of this project is to analyze the data collected of over four thousa
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date
   In order to start the analysis of these factors; we started analyzing how outcome and launch date are related. First, we created a new column in our data sheet so we could extract the year of the launch date for each campaign by using the function YEAR(). Then we created a pivot table with date created column data as our rows, outcomes as our columns, years and parent category as our filters and count of outcomes as our values. Then with the pivot table obtained we filtered the column labels so it just showed succesful, failed and canceled campaigns data. Furthermore, we grouped the row labels data to show the months of the year and we filtered the parent category to show only the data for theater. Then we sorted the campaign outcomes so we would have these outcomes in descending order. Finally, we created a line chart from the pivot table that would show us the relationship between outcomes and launch month.
+  
+<img width="614" alt="Theater_Outcomes_vs_Launch" src="https://user-images.githubusercontent.com/68616522/88498297-bc52ba80-cf90-11ea-8c9e-6b35e8393982.png">
+
 ### Analysis of Outcomes Based on Goals
   Moreover, we created a new sheet where with the help of the function COUNTIF() we created a table that showed us the number, percentages and totals of successful, failed and canceled campaigns; grouping them by goal amount ranges. Then with this table we created a line chart that showed us the relationship between goal amounts and percentage of succesfulness, failure and cancelation.
 ### Challenges and Difficulties Encountered
